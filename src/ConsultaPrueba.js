@@ -86,20 +86,6 @@ class ConsultaPrueba extends Component{
             console.log(items);
         });
 
-        /*let datos = [];
-        refOkr.once('value')
-        .then(snapshot => {
-            datos = []
-            snapshot.forEach(item => {
-                datos.push({
-                    id: item.key,
-                    ...item.val()
-                });
-            });
-            console.log("----------CONSULTA OPCIONAL OKR-------");
-            console.log(datos);
-            return datos;
-        });*/
     }
 
     /*enviaUpdate = (event) => (idokr, idrc, progreso) => {
